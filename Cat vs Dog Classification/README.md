@@ -1,4 +1,4 @@
-## Cat vs Dog Image Classification
+# Cat vs Dog Image Classification
 
 This project implements a Convolutional Neural Network (CNN) to classify images of cats and dogs using Keras and TensorFlow. The model was trained on the PetImages dataset, which contains images of cats and dogs. The goal of this project is to classify input images as either a cat or a dog.
 
@@ -61,6 +61,7 @@ image_path = "path_to_image.jpg"  # replace with your image path
 img = load_img(image_path, target_size=(128, 128))
 img = np.array(img) / 255.0  # Normalize the image
 img = img.reshape(1, 128, 128, 3)  # Reshape for prediction
+
 
 # Make prediction
 pred = model.predict(img)
