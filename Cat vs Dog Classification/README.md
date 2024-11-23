@@ -19,7 +19,7 @@ Model Training:
 The model is trained using the training set, and its performance is validated using the test set.
 The training process involves 10 epochs.
 
-#Prediction:
+# Prediction:
 
 Once the model is trained, it can be used to predict if a given image is of a cat or a dog.
 Model Save:
@@ -68,7 +68,8 @@ pred = model.predict(img)
 # Display the prediction result
 label = 'Dog' if pred[0] > 0.5 else 'Cat'
 print(f"Prediction: {label}")
-5. Model Saving and Loading
+
+## Model Saving and Loading
 The trained model will be saved as catvsdogclassification.keras. You can load it later for further inference or retraining.
 
 model.save('catvsdogclassification.keras')
