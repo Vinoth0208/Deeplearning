@@ -55,11 +55,11 @@ Epoch 15: Generated images are high-quality with well-defined facial features, i
 Requirements
 To run this project, you'll need to have the following Python packages installed:
 
-tensorflow
-keras
-matplotlib
-numpy
-pandas
-tqdm
-kagglehub
-os
+1. tensorflow
+2. keras
+3. matplotlib
+4. numpy
+5. pandas
+6. tqdm
+7. kagglehub
+8. os
